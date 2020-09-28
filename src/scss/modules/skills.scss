@@ -35,12 +35,12 @@
         background: url(../assets/img/small-tick-blue.svg);
       }
       .skills-list--dot & {
-          width: 2px;
-          height: 2px;
-          border-radius: 50%;
-          top: 10px;
-          left: 5px;
-          background: $lighterBlue;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        top: 10px;
+        left: 5px;
+        background: $lighterBlue;
       }
       display: block;
     }

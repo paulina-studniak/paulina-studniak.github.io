@@ -2,7 +2,7 @@
   background: $blue;
   color: #fff;
   padding: 64px 16px 88px;
-  &__columns{
+  &__columns {
     @media (min-width: $desktop) {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -15,6 +15,7 @@
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    margin: 0 0 64px;
     @media (min-width: $desktop) {
       font-size: 48px;
       line-height: 56px;

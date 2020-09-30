@@ -1,5 +1,8 @@
 .projects {
   padding: 64px 16px 88px;
+  @media (min-width: $desktop) {
+    padding: 64px 16px 176px;
+  }
   &__description {
     font-weight: 300;
     font-size: 16px;
@@ -18,6 +21,7 @@
     line-height: 48px;
     color: $textDark;
     text-align: center;
+    margin: 0 0 40px;
     @media (min-width: $desktop) {
       font-size: 48px;
       line-height: 56px;
@@ -49,8 +53,8 @@
   }
   &__content {
     padding: 24px 16px;
-    @media (min-width: $desktop){
-      padding: 24px 48px 82px;
+    @media (min-width: $desktop) {
+      padding: 18px 48px 58px;
     }
   }
   &__grid {
@@ -61,7 +65,7 @@
     @media (min-width: $desktop) {
       grid-template-columns: 116px 1fr;
     }
-    &--description{
+    &--description {
       margin-bottom: 24px;
     }
   }

@@ -31,6 +31,8 @@ fetch("https://api.github.com/users/paulina-studniak/repos")
             <span class="project__label">demo:</span>
             <span
               >&lt;<a
+              target="_blank"
+              rel="noopener noreferrer"
                 class="project__link"
                 href="${homepage}"
                 title="${name} - demo"
@@ -43,8 +45,10 @@ fetch("https://api.github.com/users/paulina-studniak/repos")
             <span
               >&lt;<a
                 class="project__link"
-                href="${html_url}"
+                href="${html_url}"     
                 title="${name} - code"
+                target="_blank"
+                rel="noopener noreferrer"
                 >source_code</a
               >&gt;</span
             >

@@ -1,4 +1,4 @@
-![cover](https://paulina-studniak.github.io/og-pf.png)
+![cover](https://paulina-studniak.github.io/public/og-pf.png)
 
 # PAULINA STUDNIAK- JUNIOR FRONTEND DEVELOPER  
 
